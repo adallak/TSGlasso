@@ -3,7 +3,8 @@
 Graphical modeling of high-dimensional time series
 
 The `TSGlasso` command estimates sparse inverse spectral density matrix for high-dimensional time series. 
-It is related to graphical model selection. 
+It is related to graphical model selection. For details, see [Dallakyan et. al 2021](https://arxiv.org/pdf/2107.01659.pdf),
+[Tugnait 2018](https://ieeexplore.ieee.org/document/8645324), and [Jung et. al 2015](https://research.cs.aalto.fi/MLBigDat/papers/AJung_LSP15_Graphical_LASSO_Model_Selection.pdf)
 
 ## Usage
 First, we generate data from the VAR process using `simulateVAR` function. Then esimate sparse inverse spectral density matrix.
