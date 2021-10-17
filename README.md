@@ -8,8 +8,8 @@ It is related to graphical model selection.
 ## Usage
 First, we generate data from the VAR process using `simulateVAR` function. Then esimate sparse inverse spectral density matrix.
 ```s
-source(simulateVAR)
-source(TSGlasso)
+source("simulateVAR.R")
+source("tsGLASSO.R")
 K = 6
 size = 128
 burn = 100
